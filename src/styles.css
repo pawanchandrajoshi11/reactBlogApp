@@ -1,0 +1,161 @@
+/* componentStyles.css */
+
+/* BlogForm Component */
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.form-group button:active {
+  background-color: #004aa3;
+}
+
+/* BlogList Component */
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.blog-item h3 {
+  margin-top: 0;
+}
+
+.blog-item p {
+  margin-bottom: 10px;
+}
+
+.blog-item button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.blog-item button:hover {
+  background-color: #0056b3;
+}
+
+.blog-item button:active {
+  background-color: #004aa3;
+}
+
+
+/* styles.css */
+
+/* Styles for blog cards */
+.blog-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styles for blog title */
+.blog-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles for blog content */
+.blog-content {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Styles for edit and delete buttons */
+.edit-button,
+.delete-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+
+CreateBlogForm.css
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
